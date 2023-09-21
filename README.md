@@ -18,5 +18,5 @@ git branch -D branch-name
 
 # Process to Reset Remote Branch to a particular commit
  git log --pick commit hash from log to which you want to reset
- git reset --hard <commithash>
- git push -f origin <branchname>
+ git reset --hard commithash
+ git push -f origin branchname
