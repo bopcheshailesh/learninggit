@@ -11,3 +11,7 @@ git push -f origin 'current branch name'
   
   # Hardreset - change head delete the changes
   git reset --hard HEAD~1
+
+
+# Delete local branch
+git branch -D branch-name
